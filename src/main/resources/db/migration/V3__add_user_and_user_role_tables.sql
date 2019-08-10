@@ -1,8 +1,9 @@
 create table user
 (
   id       BIGINT(20) auto_increment,
-  login    varchar(100) NOT NULL,
+  login    varchar(100) NOT NULL UNIQUE,
   password varchar(255) NOT NULL,
+  email    varchar(255) NOT NULL,
   PRIMARY KEY (id)
 );
 create table user_role
