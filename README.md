@@ -43,7 +43,7 @@ create database SpringSPj character set utf8;
 ```bash script
 mvn clean install
 ```
-> Or your IDE do it for you 
+> Or your IDE will do it for you 
 - Run migration of SQL scripts to create the tables and fill some sample data
 ```bash script
 mvn flyway:migrate
